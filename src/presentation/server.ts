@@ -28,7 +28,7 @@ export class Server {
     });
 
     this.app.listen(this.port, () => {
-      console.log("Servidor ejecutandose");
+      console.log(`Servidor ejecutandose en puerto ${this.port}`);
     });
   }
 }
